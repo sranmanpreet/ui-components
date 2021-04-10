@@ -13,5 +13,5 @@ Kanban is a lean method to manage and improve work across human systems. Kanban 
 # Components
 
 ##  Single Price Grid
-![Single Price Grid - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/single-price-grid/designs/Desktop_preview.jpg?raw=true)
-![Single Price Grid - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/single-price-grid/designs/Mobile_preview.jpg?raw=true)
+![Single Price Grid - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/single-price-grid/designs/Desktop_preview.JPG)
+![Single Price Grid - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/single-price-grid/designs/Mobile_preview.JPG)
