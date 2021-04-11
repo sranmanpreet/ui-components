@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+    font-size: 15px;
+    font-family: Poppins;
+    background-color: #FAFAFA;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.container .header {
+    max-width: 50%;
+    margin: auto;
+}
+
+.container .header .tag-one {
+    font-weight: 200;
+    color: #BFBEC5;
+}
+
+.container .header .tag-two {
+    color: #59596B;
+}
+
+.container .header p {
+    color: #BFBEC5;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nested-cards {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    box-shadow: -5px 5px 10px rgba(128, 128, 128, 0.35);
+    border-top: 4px solid;
+    border-radius: 5px;
+    height: 20vh;
+    padding: 8%;
+    margin: 4%;
+    text-align: left;
+    position: relative;
+}
+
+.card-container .card .card-title {
+    color: #59596B;
+}
+
+.card-container .card .card-description {
+    color: #cac9c9;
+    font-size: 0.8rem;
+}
+
+.card-container .card .icon {
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.card-container .card .icon img {
+    max-width: 80%;
+}
+
+.card-container .card-one {
+    border-color: hsl(180, 62%, 55%);
+}
+
+.card-container .card-two {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.card-container .card-three {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.card-container .card-four {
+    border-color: hsl(212, 86%, 64%);
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        font-size: 0.7rem;
+        width: 90%;
+    }
+    .container .header {
+        max-width: 90%;
+        margin: auto;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        padding: 5%;
+        min-height: 130px;
+    }
+    .card-container .card .icon img {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .container {
+        font-size: 0.8rem;
+        width: 90%;
+    }
+    .container .header {
+        max-width: 90%;
+        margin: auto;
+    }
+    .card {
+        padding: 5%;
+        min-height: 170px;
+    }
+    .card-container .card .icon img {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1270px) {
+    .card {
+        padding: 5%;
+        min-height: 190px;
+    }
+    .card-container .card .icon img {
+        max-width: 60%;
+    }
+}
