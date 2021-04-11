@@ -18,4 +18,4 @@ Kanban is a lean method to manage and improve work across human systems. Kanban 
 
 ## Four Card Feature Section
 ![Four Card Feature Section - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/four-card-feature-section/design/Desktop_preview.JPG)
-![Four Card Feature Section - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/four-card-feature-section/design/Mobile_preview.JPG)
+![Four Card Feature Section - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/four-card-feature-section/design/Mobile_preview.jpg)
