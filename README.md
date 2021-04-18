@@ -23,3 +23,7 @@ Kanban is a lean method to manage and improve work across human systems. Kanban 
 ## Huddle Landing Page
 ![Huddle Landing Page - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/huddle-landing-page/design/Desktop_preview.jpg)
 ![Huddle Landing Page - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/huddle-landing-page/design/Mobile_preview.jpg)
+
+## Base Apparel Coming Soon
+![Base Apparel Coming Soon - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/base-apparel-coming-soon/design/Desktop_preview.JPG)
+![Base Apparel Coming Soon - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/base-apparel-coming-soon/design/Mobile_preview.JPG)

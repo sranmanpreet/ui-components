@@ -1,0 +1,189 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(./fonts/JosefinSans-Regular.ttf);
+}
+
+html,
+body {
+    font-family: JosefinSans;
+    font-size: 16px;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header,
+.container .content {
+    width: 80%;
+    margin: auto;
+}
+
+.container .header {
+    padding: 10% 0%;
+    text-align: left;
+}
+
+.container .content {
+    margin-bottom: 30px;
+}
+
+.header .logo {
+    max-width: 120px;
+}
+
+.hero .mobile-img {
+    display: none;
+}
+
+.hero .desktop-img {
+    display: none;
+}
+
+.we-re,
+.coming-soon {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.we-re {
+    font-weight: 300;
+    margin-top: 15%;
+    color: hsl(0, 36%, 70%);
+}
+
+.coming-soon {
+    margin-top: 3%;
+}
+
+.description {
+    margin-top: 10%;
+    color: hsl(0, 36%, 70%);
+    line-height: 140%;
+    font-size: 0.9rem;
+}
+
+.input-button-section {
+    text-align: left;
+}
+
+.input-button-section form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form {
+    border: 1px solid hsla(0, 36%, 70%, 0.459);
+    border-radius: 27px;
+}
+
+.input-email {
+    padding: 16px;
+    border: none;
+    color: hsl(0, 36%, 70%);
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.input-email:focus {
+    outline: none;
+}
+
+.input-email::placeholder {
+    color: hsl(0, 36%, 70%);
+    font-family: JosefinSans;
+    opacity: 0.5;
+}
+
+button {
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: none;
+    border-radius: 30px;
+    padding: 1px 16px;
+    color: white;
+    font-size: 1.8rem;
+    box-shadow: 0px 6px 40px #cecdcd63;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-image: linear-gradient(135deg, hsl(0, 60%, 88%), hsl(0, 66%, 77%));
+}
+
+.error {
+    color: hsl(0, 46%, 65%);
+    font-size: 0.8rem;
+    margin-top: 3%;
+    margin-left: 5%;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero .mobile-img {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .hero .desktop-img {
+        display: block;
+        width: 100%;
+    }
+    .container {
+        display: inline;
+        overflow: hidden;
+    }
+    .container .header,
+    .container .hero,
+    .container .content {
+        display: inline-block;
+        max-width: 45%;
+        margin: 0;
+        padding: 5% 0 0 5%;
+        text-align: left;
+    }
+    .container .hero {
+        float: right;
+        padding: 0;
+        max-width: 45%;
+    }
+    .container .content {
+        max-width: 40%;
+        margin-top: 2%;
+    }
+    button {
+        padding: 3px 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 750px) {
+    .container .content {
+        max-width: 45%;
+        margin-top: 0%;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 870px) {
+    .container .content {
+        max-width: 35%;
+    }
+}
