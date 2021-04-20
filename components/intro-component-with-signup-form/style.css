@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+html,
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-mobile.png);
+    font-family: Poppins;
+    font-size: 16px;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+}
+
+.content {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.content .offer-text-container {
+    background-color: hsl(248, 32%, 49%);
+    padding: 1% 15%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.473);
+}
+
+.content .form-container {
+    margin-top: 5%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.input-container .custom-input {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 95%;
+    margin: 2% 0% 0% 0%;
+    padding: 2%;
+    text-align: left;
+    display: flex;
+}
+
+.form-container form input {
+    border: none;
+    outline: none;
+    width: 85%;
+}
+
+.form-container form input::placeholder {
+    font-weight: 600;
+}
+
+.form-container form button {
+    width: 100%;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    box-shadow: 1px 5px 10px hsl(0, 0%, 37%);
+    padding: 3%;
+    cursor: pointer;
+}
+
+.form-container form button:active {
+    background-color: hsl(154, 63%, 67%);
+    box-shadow: 1px 5px 10px hsl(154, 59%, 41%);
+}
+
+.form-container .terms-and-services {
+    display: block;
+    padding: 1% 7%;
+    color: rgb(173, 173, 173);
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.form-container .terms-and-services .tns-color {
+    color: hsl(0, 100%, 74%);
+}
+
+.input-container {
+    margin-bottom: 5%;
+}
+
+.input-container .custom-input {
+    width: 97%;
+    display: flex;
+    align-items: center;
+}
+
+.input-container .custom-input img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.custom-input img {
+    display: none;
+}
+
+.error {
+    color: hsl(0, 100%, 74%);
+    display: none;
+    text-align: right;
+    font-size: 0.7rem;
+    padding-right: 4%;
+}
+
+@media screen and (min-width: 600px) {
+    html,
+    body {
+        background-image: url(images/bg-intro-desktop.png);
+    }
+    .container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .container .header {
+        padding: 5%;
+        text-align: left;
+    }
+    .container .header h1 {
+        font-size: 2rem;
+    }
+    .container .content {
+        padding: 5%;
+        margin-top: 0;
+    }
+    .content .offer-text-container {
+        padding: 0.5% 15%;
+    }
+    .form-container form input {
+        width: 80%;
+        border: none;
+    }
+    .form-container form button {
+        width: 100%;
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .input-container .custom-input {
+        width: 97%;
+        display: flex;
+        align-items: center;
+    }
+    .input-container .custom-input img {
+        width: fit-content;
+        height: fit-content;
+    }
+    .error {
+        display: none;
+        color: hsl(0, 100%, 74%);
+        border: none;
+    }
+}

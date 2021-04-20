@@ -27,3 +27,7 @@ Kanban is a lean method to manage and improve work across human systems. Kanban 
 ## Base Apparel Coming Soon
 ![Base Apparel Coming Soon - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/base-apparel-coming-soon/design/Desktop_preview.JPG)
 ![Base Apparel Coming Soon - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/base-apparel-coming-soon/design/Mobile_preview.JPG)
+
+## Intro Component With Signup Form
+![Intro Component With Signup Form - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/intro-component-with-signup-form/design/Desktop_preview.JPG)
+![Intro Component With Signup Form - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/intro-component-with-signup-form/design/Mobile_preview.JPG)
