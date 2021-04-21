@@ -1,6 +1,6 @@
 # UI Components
 
-Kanban is a lean method to manage and improve work across human systems. Kanban Board is a serverless application built in Angular. Drag and Drop tasks from one column to another. Edit Mode toggle in the application enables to add/update Boards, Columns and Tasks. Checkout live application [here](https://sranmanpreet.github.io/kanban_live).
+Reusable UI components written in HTML, CSS and JavaScript
 
 # Features!
   - Responsive Layouts
@@ -31,3 +31,7 @@ Kanban is a lean method to manage and improve work across human systems. Kanban 
 ## Intro Component With Signup Form
 ![Intro Component With Signup Form - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/intro-component-with-signup-form/design/Desktop_preview.JPG)
 ![Intro Component With Signup Form - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/intro-component-with-signup-form/design/Mobile_preview.JPG)
+
+## Pricing Component With Toggle
+![Pricing Component With Toggle - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/pricing-component-with-toggle/design/Desktop_preview.JPG)
+![Pricing Component With Toggle - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/pricing-component-with-toggle/design/Mobile_preview.JPG)

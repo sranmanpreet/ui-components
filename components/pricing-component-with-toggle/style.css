@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    background-image: url(images/bg-top.svg);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.hero {
+    margin: 15% 5%;
+    color: grey;
+}
+
+.toggle-container {
+    width: 100%;
+}
+
+
+/************************/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch .slider::before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 23px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: hsl(237, 63%, 64%);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider::before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round::before {
+    border-radius: 50%;
+}
+
+
+/************************/
+
+.content {
+    margin: 20% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .card {
+    background-color: white;
+    padding: 4% 3% 8% 3%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.233);
+    margin: 5%;
+    color: grey;
+    font-weight: 800;
+}
+
+.card .price {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card .price .amount {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.card table {
+    margin: 4% auto;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.card table tr td {
+    border-top: 1px solid rgba(128, 128, 128, 0.521);
+    padding: 3%;
+}
+
+.card button {
+    background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 4% 0%;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#professional-card {
+    background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+}
+
+#professional-card button {
+    background: white;
+    color: hsl(237, 63%, 64%);
+}
+
+@media screen and (min-width: 600px) {
+    .hero {
+        margin: 5% auto 0%;
+        color: grey;
+    }
+    .content {
+        margin: 4%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .content .card {
+        padding: 2%;
+        margin: 0%;
+        width: 16%;
+    }
+    .card table tr td {
+        padding: 5%;
+    }
+    #professional-card {
+        padding: 4%;
+    }
+}
