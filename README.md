@@ -34,4 +34,9 @@ Reusable UI components written in HTML, CSS and JavaScript
 
 ## Pricing Component With Toggle
 ![Pricing Component With Toggle - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/pricing-component-with-toggle/design/Desktop_preview.JPG)
-![Pricing Component With Toggle - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/pricing-component-with-toggle/design/Mobile_preview.JPG)
+![Pricing Component With Toggle - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/pricing-component-with-toggle/design/Mobile_preview.jpg)
+
+
+## Insure Landing Page
+![Insure Landing Page - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/insure-landing-page/design/Desktop_preview.png)
+![Insure Landing Page - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/insure-landing-page/design/Mobile_preview.png)
