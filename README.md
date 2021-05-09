@@ -40,3 +40,7 @@ Reusable UI components written in HTML, CSS and JavaScript
 ## Insure Landing Page
 ![Insure Landing Page - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/insure-landing-page/design/Desktop_preview.png)
 ![Insure Landing Page - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/insure-landing-page/design/Mobile_preview.png)
+
+## Fyle Dark Theme Landing Page
+![Insure Landing Page - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/fylo-dark-theme-landing-page/design/Desktop_preview.png)
+![Insure Landing Page - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/fylo-dark-theme-landing-page/design/Mobile_preview.png)
