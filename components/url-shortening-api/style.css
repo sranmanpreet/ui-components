@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Poppins;
+}
+
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    padding: 3% 5%;
+    display: flex;
+    background-color: white;
+}
+
+nav .nav-item-groups {
+    display: none;
+}
+
+nav .brand-logo {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3% 5% 40%;
+}
+
+.hero .hero-image img {
+    width: 100%;
+}
+
+.hero .hero-content .hero-title {
+    font-weight: 600;
+}
+
+.hero .hero-content .hero-description {
+    color: hsl(0, 0%, 75%);
+}
+
+.get-started-button {
+    padding: 3% 10%;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.content {
+    padding: 2% 5%;
+    position: relative;
+}
+
+.action-box-container {
+    background-color: hsl(257, 27%, 26%);
+    padding: 5%;
+    border-radius: 5px;
+    position: relative;
+    top: -75px;
+}
+
+.action-box-container .action-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-box-container .action-box * {
+    padding: 3%;
+    margin: 2%;
+}
+
+.action-box input {
+    font-size: 0.8rem;
+}
+
+.action-box input:focus {
+    outline: none;
+}
+
+.action-box input::placeholder {
+    color: hsl(0, 0%, 75%);
+    font-family: Poppins;
+    font-size: 0.8rem;
+}
+
+.action-box .shorten-it-button {
+    border-radius: 5px;
+    padding: 3% 10%;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.advanced-statistics .advanced-statistics-subsection-one p {
+    color: hsl(0, 0%, 69%);
+}
+
+.advanced-statistics-subsection-two {
+    margin: 15% 0%;
+}
+
+.advanced-statistics-subsection-two .advanced-statistics-card {
+    background-color: white;
+    padding: 10% 5%;
+    margin: 20% 0%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: -5px 5px 25px 5px rgba(0, 0, 0, 0.021);
+    z-index: 100;
+}
+
+.advanced-statistics-subsection-two .advanced-statistics-card img {
+    background-color: hsl(257, 27%, 26%);
+    padding: 5%;
+    border-radius: 50%;
+    position: absolute;
+    top: -16%;
+    left: 40%;
+}
+
+.advanced-statistics-subsection-two .advanced-statistics-card p {
+    color: hsl(0, 0%, 69%);
+    font-size: 0.9rem;
+}
+
+.footer {
+    width: 100%;
+    color: white;
+}
+
+.footer .boost-links-today {
+    background-image: url(images/bg-boost-mobile.svg);
+    background-color: hsl(257, 27%, 26%);
+    padding: 17% 5%;
+}
+
+.footer .footer-sections {
+    background-color: black;
+    padding: 10% 5%;
+}
+
+.footer-sections .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15%;
+}
+
+.footer-sections .footer-section ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 69%)
+}
+
+.footer-sections .footer-section ul li #footer-section-title {
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-sections .footer-section ul .footer-section-title-li {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+.footer-sections .footer-section img {
+    margin: 3%;
+}
+
+@media screen and (min-width: 600px) {
+    nav {
+        padding: 3% 10%;
+    }
+    nav a {
+        color: hsl(0, 0%, 69%);
+        text-decoration: none;
+    }
+    nav .nav-item-groups {
+        display: flex;
+        width: 100%;
+    }
+    nav .nav-item-groups .nav-group-left {
+        width: 50%;
+        text-align: left;
+    }
+    nav .nav-item-groups .nav-group-left * {
+        margin-left: 5%;
+    }
+    nav .nav-item-groups .nav-group-right {
+        width: 50%;
+        justify-self: right;
+        text-align: right;
+    }
+    nav .nav-item-groups .nav-group-right * {
+        margin-left: 5%;
+    }
+    nav .nav-item-groups .nav-group-right .nav-items .sign-up-button {
+        border-radius: 50px;
+        padding: 1% 4%;
+        background-color: hsl(180, 66%, 49%);
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    .hero {
+        flex-flow: row-reverse;
+        padding: 3% 10% 10%;
+        justify-content: space-between;
+    }
+    .hero .hero-image img {
+        width: 80%;
+    }
+    .hero .hero-content {
+        text-align: left;
+        width: 40%;
+    }
+    .content {
+        padding: 2% 10%;
+    }
+    .action-box-container {
+        padding: 3%;
+        top: -100px;
+    }
+    .action-box-container .action-box {
+        flex-direction: row;
+    }
+    .action-box-container .action-box * {
+        padding: 1.5%;
+        margin: 1%;
+    }
+    .action-box input {
+        width: 80%;
+        border-radius: 10px;
+    }
+    .action-box .shorten-it-button {
+        border-radius: 10px;
+        padding: 1% 5%;
+        width: 20%;
+        font-size: 0.9rem;
+    }
+    .advanced-statistics .advanced-statistics-subsection-one {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .advanced-statistics-subsection-two {
+        margin: 5% 0%;
+        display: flex;
+        height: 65vh;
+    }
+    .advanced-statistics-subsection-two .advanced-statistics-card {
+        text-align: left;
+        padding: 5% 5% 2%;
+        margin: 1% 1%;
+        height: fit-content;
+    }
+    .advanced-statistics-subsection-two .advanced-statistics-card img {
+        top: -13%;
+        left: 15%;
+    }
+    .advanced-statistics-subsection-two .card-one {
+        align-self: flex-start;
+    }
+    .advanced-statistics-subsection-two .card-two {
+        align-self: center;
+    }
+    .advanced-statistics-subsection-two .card-three {
+        align-self: flex-end;
+    }
+    .footer .boost-links-today {
+        background-image: url(images/bg-boost-desktop.svg);
+        padding: 4%;
+    }
+    .footer .get-started-button-footer {
+        padding: 1% 3%;
+    }
+    .footer .footer-sections {
+        display: flex;
+        padding: 5%;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+    .footer .footer-sections .footer-section h1 {
+        margin: 0;
+        padding: 0;
+    }
+    .footer .footer-sections .footer-section ul {
+        margin: 0;
+        padding: 0;
+    }
+    .footer-sections .footer-section img {
+        margin: 0%;
+    }
+}

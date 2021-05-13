@@ -44,3 +44,7 @@ Reusable UI components written in HTML, CSS and JavaScript
 ## Fyle Dark Theme Landing Page
 ![Insure Landing Page - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/fylo-dark-theme-landing-page/design/Desktop_preview.png)
 ![Insure Landing Page - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/fylo-dark-theme-landing-page/design/Mobile_preview.png)
+
+## Url Shorening API
+![Url Shorening API - Desktop View](https://github.com/sranmanpreet/ui-components/blob/master/components/url-shortening-api/design/Desktop_preview.png)
+![Url Shorening API - Mobile View](https://github.com/sranmanpreet/ui-components/blob/master/components/url-shortening-api/design/Mobile_preview.png)
